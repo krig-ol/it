@@ -14,7 +14,8 @@ Console.WriteLine("Введенный массив [{0}] из " + size + $" эл
 int count = 0;
 int max = 3;
 
-for (int i = 0; i < array.Length; i++){
+for (int i = 0; i < array.Length; i++)
+{
 	if(array[i].Length <= max){
 		count++;
 	}   
@@ -22,7 +23,8 @@ for (int i = 0; i < array.Length; i++){
 
 string[] array1 = new string[count];
 int j = 0;
-for (int i = 0; i < array.Length; i++){
+for (int i = 0; i < array.Length; i++)
+{
     if(array[i].Length <= max){
         array1[j] = array[i];
         j++;
