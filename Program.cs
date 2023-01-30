@@ -4,7 +4,7 @@ int size  = Convert.ToInt32(Console.ReadLine());;
 string[] array = new string[size];
 
 for (int i = 0; i < size; i++){
-	Console.Write("Введите элемент массива: ");
+	Console.Write($"Введите элемент массива № {i + 1}: ");
     string? result = Console.ReadLine();
 	array[i] = result;  
 }
